@@ -7,6 +7,8 @@ $ npm init vue@latest
 $ fill any question
 $ npm install
 $ npm run dev
+
+# Replace <a></a> tag to <RouterLink></RouterLink> also href => to
 ```
 
 ### Dependencies
