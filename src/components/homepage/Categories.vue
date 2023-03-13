@@ -1,12 +1,12 @@
 <script setup>
-import { ref } from "vue";
-import CategoryCard from "../CategoryCard.vue";
+import { ref } from 'vue';
+import CategoryCard from '../CategoryCard.vue';
 
 const categories = ref([
-    { id: 1, title: "Mobile UI Kit", count: 700, image: "categories-1.jpg" },
-    { id: 2, title: "Fonts", count: 657, image: "categories-2.jpg" },
-    { id: 3, title: "Icon Set", count: 83000, image: "categories-3.jpg" },
-    { id: 4, title: "Website UI Kit", count: 4500, image: "categories-4.jpg" },
+    { id: 1, title: 'Mobile UI Kit', count: 700, image: 'categories-1.jpg' },
+    { id: 2, title: 'Fonts', count: 657, image: 'categories-2.jpg' },
+    { id: 3, title: 'Icon Set', count: 83000, image: 'categories-3.jpg' },
+    { id: 4, title: 'Website UI Kit', count: 4500, image: 'categories-4.jpg' },
 ]);
 </script>
 

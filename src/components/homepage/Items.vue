@@ -1,25 +1,25 @@
 <script setup>
-import { RouterLink } from "vue-router";
-import ItemCard from "../ItemCard.vue";
+import { RouterLink } from 'vue-router';
+import ItemCard from '../ItemCard.vue';
 
 const items = [
     {
         id: 1,
-        title: "Robocrypto App",
-        description: "Mobile UI Kit",
-        image: "items-1.jpg",
+        title: 'Robocrypto App',
+        description: 'Mobile UI Kit',
+        image: 'items-1.jpg',
     },
     {
         id: 2,
-        title: "Online Doctor Consultation",
-        description: "Website UI Kit",
-        image: "items-2.jpg",
+        title: 'Online Doctor Consultation',
+        description: 'Website UI Kit',
+        image: 'items-2.jpg',
     },
     {
         id: 3,
-        title: "Banking Crypto",
-        description: "Mobile UI Kit",
-        image: "items-3.jpg",
+        title: 'Banking Crypto',
+        description: 'Mobile UI Kit',
+        image: 'items-3.jpg',
     },
 ];
 </script>

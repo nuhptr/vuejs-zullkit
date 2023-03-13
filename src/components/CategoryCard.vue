@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import { RouterLink } from 'vue-router';
 
 const props = defineProps({
     title: String,
@@ -13,18 +13,13 @@ const props = defineProps({
         <div class="overflow-hidden border border-gray-200 rounded-xl">
             <RouterLink to="#">
                 <div class="m-4 overflow-hidden rounded-xl">
-                    <img
-                        :alt="props.title"
-                        class="block w-full h-auto"
-                        :src="'/src/assets/img/' + props.image" />
+                    <img :alt="props.title" class="block w-full h-auto" :src="'/src/assets/img/' + props.image" />
                 </div>
             </RouterLink>
 
             <header class="px-4 mb-4 leading-tight">
                 <h1 class="text-lg">
-                    <RouterLink
-                        class="font-semibold text-black no-underline hover:underline"
-                        to="#">
+                    <RouterLink class="font-semibold text-black no-underline hover:underline" to="#">
                         {{ props.title }}
                     </RouterLink>
                 </h1>
